@@ -1,0 +1,18 @@
+import React from "react";
+import LatestCollection from "../components/LatestCollection";
+import BestSeller from "../components/BestSeller";
+
+const Product = () => {
+  return (
+    <div className="w-[99vw] min-h-[100vh] flex flex-col justify-start items-center py-[20px] bg-gradient-to-r from-[#3B3A28] via-[#5E503F] to-[#B08D57]">
+      <div className="w-[100%] min-h-[70px] flex flex-col justify-center items-center gap-[10px]">
+        <LatestCollection></LatestCollection>
+      </div>
+      <div className="w-[100%] min-h-[70px] flex flex-col justify-center items-center gap-[10px]">
+        <BestSeller></BestSeller>
+      </div>
+    </div>
+  );
+};
+
+export default Product;
