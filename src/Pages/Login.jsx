@@ -11,7 +11,6 @@ import { signInWithPopup } from "firebase/auth";
 import { provider, auth } from "../utils/Firebase";
 import { useUserContext } from "../contexts/UserContext";
 import { useShopContext } from "../contexts/ShopContext";
-import { get } from "mongoose";
 
 function Login() {
   const navigate = useNavigate();

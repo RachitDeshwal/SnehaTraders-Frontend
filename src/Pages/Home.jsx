@@ -7,7 +7,6 @@ import Hero from "../components/Hero";
 import Product from "./Product";
 import OurPolicy from "../components/OurPolicy";
 import Footer from "../components/Footer";
-import NewLetterBox from "../components/NewLetterBox";
 
 const Home = () => {
   const [heroCount, setHeroCount] = useState(0);

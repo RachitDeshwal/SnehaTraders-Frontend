@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
-import { shopDataContext, useShopContext } from "../contexts/ShopContext";
+import { useShopContext } from "../contexts/ShopContext";
 import Title from "../components/Title";
 import Card from "../components/Card";
 

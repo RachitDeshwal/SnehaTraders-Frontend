@@ -1,7 +1,5 @@
-import React from "react";
 import Title from "../components/Title";
 import about from "../assets/about.jpg";
-import NewLetterBox from "../components/NewLetterBox";
 
 const About = () => {
   return (

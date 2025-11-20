@@ -5,7 +5,6 @@ import { serverURL } from "../main";
 import { toast } from "react-toastify";
 import Loading from "../components/Loading";
 import { useUserContext } from "../contexts/UserContext";
-import { getCurrentUser } from "../../../backend/controllers/userController";
 
 const VerifyOtp = () => {
   const [otp, setOtp] = useState("");
@@ -15,6 +14,7 @@ const VerifyOtp = () => {
   const [loadingverify, setLoadingVerify] = useState(false);
   const [loadingResend, setLoadingResend] = useState(false);
   const { userData } = useUserContext();
+  const { getCurrentUser } = useUserContext();
 
   const email = userData.email; //
   const handleVerify = async (e) => {
