@@ -10,7 +10,7 @@ const Background = ({ heroCount }) => {
       <img
         src={back1}
         alt=""
-        className="w-[60%] h-[100%] md:w-[50%] float-right overflow-auto object-cover"
+         className="lg:w-[60%] sm:w-[100%] h-[100%] md:w-[50%] float-right overflow-auto object-cover"
       />
     );
   } else if (heroCount === 1) {
@@ -18,7 +18,7 @@ const Background = ({ heroCount }) => {
       <img
         src={back2}
         alt=""
-        className="w-[60%] h-[100%] md:w-[50%] float-right overflow-auto object-cover"
+        className="lg:w-[60%] sm:w-[100%] h-[100%] md:w-[50%] float-right overflow-auto object-cover"
       />
     );
   } else if (heroCount === 2) {
@@ -26,7 +26,7 @@ const Background = ({ heroCount }) => {
       <img
         src={back3}
         alt=""
-        className="w-[60%] h-[100%] md:w-[50%] float-right overflow-auto object-cover"
+         className="lg:w-[60%] sm:w-[100%] h-[100%] md:w-[50%] float-right overflow-auto object-cover"
       />
     );
   } else {
@@ -34,7 +34,7 @@ const Background = ({ heroCount }) => {
       <img
         src={back4}
         alt=""
-        className="w-[60%] md:w-[50%] h-[100%] float-right overflow-auto object-cover"
+        className="lg:w-[60%] sm:w-[100%] h-[100%] md:w-[50%] float-right overflow-auto object-cover"
       />
     );
   }
