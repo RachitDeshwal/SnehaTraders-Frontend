@@ -262,8 +262,8 @@ function PlaceOrder() {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="lg:w-[45%] w-full flex flex-col items-center lg:items-start justify-start gap-[10px] max-w-[450px]">
-        <CartTotal className="py-[20px]  sm:mb-[100px]" />
+      <div className="lg:w-[45%] w-full flex flex-col items-center lg:items-start justify-start gap-[10px] max-w-[450px] sticky top-[80px] z-20">
+        <CartTotal className="py-[20px]  " />
       </div>
     </div>
   );
