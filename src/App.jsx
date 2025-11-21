@@ -20,6 +20,7 @@ import Order from "./Pages/Order";
 import OrderDetail from "./Pages/OrderDetail";
 
 import ReturnRequests from "./Pages/ReturnRequests";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   const { userData } = useUserContext();
@@ -140,6 +141,7 @@ function App() {
           }
         />
         <Route path="/order/:id" element={<OrderDetail />} />
+        <Route path="*" element={<NotFound />}></Route>
       </Routes>
     </>
   );
